@@ -6,7 +6,7 @@ export const Qr = () => {
       <div className='cards__container'>
         <div className="card__container">
           <div className='card__img'>
-              <img src="/src/assets/image-qr-code.png" alt="qr-code" />
+              <img src="/public/image-qr-code.png" alt="qr-code" />
           </div>
           <div className='card__info'> 
               <div className='card__title'>
