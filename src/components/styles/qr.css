@@ -29,14 +29,10 @@ body {
 }
 
 .card__img {
+    height: 100%;
     width: 90%;
     padding: 12px;
     object-fit: cover;
-}
-
-.card__img img {
-    width: 100%;
-    border-radius: 12px;
 }
 
 .card__info {
@@ -46,4 +42,11 @@ body {
 
 .card__text {
     color: gray;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    background-image: url('/public/qrCode.png');
+    background-size: cover;
 }
